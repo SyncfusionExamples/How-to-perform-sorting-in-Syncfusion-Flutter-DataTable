@@ -43,6 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
         allowSorting: true,
         allowTriStateSorting: true,
         allowMultiColumnSorting: true,
+        showSortNumbers: true,
         source: _employeeDataSource,
         columns: <GridColumn>[
           GridNumericColumn(mappingName: 'id', headerText: 'ID'),
